@@ -1,0 +1,12 @@
+E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Core\bin\Debug\net6.0\SchoolManageMicroService.Core.deps.json
+E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Core\bin\Debug\net6.0\SchoolManageMicroService.Core.dll
+E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Core\bin\Debug\net6.0\SchoolManageMicroService.Core.pdb
+E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Core\obj\Debug\net6.0\SchoolManageMicroService.Core.csproj.AssemblyReference.cache
+E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Core\obj\Debug\net6.0\SchoolManageMicroService.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Core\obj\Debug\net6.0\SchoolManageMicroService.Core.AssemblyInfoInputs.cache
+E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Core\obj\Debug\net6.0\SchoolManageMicroService.Core.AssemblyInfo.cs
+E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Core\obj\Debug\net6.0\SchoolManageMicroService.Core.csproj.CoreCompileInputs.cache
+E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Core\obj\Debug\net6.0\SchoolManageMicroService.Core.dll
+E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Core\obj\Debug\net6.0\refint\SchoolManageMicroService.Core.dll
+E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Core\obj\Debug\net6.0\SchoolManageMicroService.Core.pdb
+E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Core\obj\Debug\net6.0\ref\SchoolManageMicroService.Core.dll

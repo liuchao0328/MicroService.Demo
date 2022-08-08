@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7a1NaZTmoiFaCTUIs6QsDqgjjwlS7dVNxYEf2XOwH8c=",
+  "Source": "SchoolManageMicroService.Aggregates",
+  "BasePath": "_content/SchoolManageMicroService.Aggregates",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

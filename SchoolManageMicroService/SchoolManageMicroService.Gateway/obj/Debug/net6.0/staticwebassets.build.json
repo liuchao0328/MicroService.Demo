@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2zp54N/ov0WRm9Q3Ank9T4ucpssJHNeS9fZkXtxGjVg=",
+  "Source": "SchoolManageMicroService.Gateway",
+  "BasePath": "_content/SchoolManageMicroService.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

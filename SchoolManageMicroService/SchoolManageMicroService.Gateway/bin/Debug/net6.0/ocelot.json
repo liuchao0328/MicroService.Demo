@@ -1,0 +1,17 @@
+{
+  //配置路由规则
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/AggregateService", //上游服务模板
+      "UpstreamHttpMethod": [ "Get" ], //上游请求格式
+      "DownstreamPathTemplate": "/api/Aggregates/GetClasses", //下游请求模板（控制器）
+      "DownstreamScheme": "https", //请求协议  HTTP HTTPS
+      "DownstreamHostAndPorts": [ //下游请求的地址（ip+端口号），可以配置多个 （集群，高可用）
+        {
+          "Host": "localhost",
+          "Port": 7012
+        }
+      ]
+    }
+  ]
+}

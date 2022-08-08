@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hL1E1SfKmFzcqkFjV0OxENpWt8AiLDUTKQwI7DysrTI=",
+  "Source": "SchoolManageMicroService.Students",
+  "BasePath": "_content/SchoolManageMicroService.Students",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
