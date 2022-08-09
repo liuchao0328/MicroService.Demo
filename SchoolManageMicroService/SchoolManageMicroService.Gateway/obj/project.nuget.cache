@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "reBS8w8+zTELK/RrE2Hlov7UTIKjy54d4Y4+otOPNM58b27XM428U80TVSg3CsmcfFib6I3dGcj6UQXn+tT4sA==",
+  "dgSpecHash": "8/Vr20gGsytlpL36iFo5c6O6BCdQ3vi1t9ci5T/uwwmOHupDAdSe83phFAkNd5oRMHluQJ1LiL62YzCsi2Ce0g==",
   "success": true,
   "projectFilePath": "E:\\studyspace\\Demo\\MicroService\\SchoolManageMicroService\\SchoolManageMicroService.Gateway\\SchoolManageMicroService.Gateway.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\liuchao\\.nuget\\packages\\consul\\1.6.10.4\\consul.1.6.10.4.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.1\\microsoft.aspnetcore.jsonpatch.6.0.1.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.aspnetcore.middlewareanalysis\\6.0.1\\microsoft.aspnetcore.middlewareanalysis.6.0.1.nupkg.sha512",
@@ -16,6 +17,9 @@
     "C:\\Users\\liuchao\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\ocelot\\18.0.0\\ocelot.18.0.0.nupkg.sha512",
+    "C:\\Users\\liuchao\\.nuget\\packages\\ocelot.provider.consul\\18.0.0\\ocelot.provider.consul.18.0.0.nupkg.sha512",
+    "C:\\Users\\liuchao\\.nuget\\packages\\ocelot.provider.polly\\18.0.0\\ocelot.provider.polly.18.0.0.nupkg.sha512",
+    "C:\\Users\\liuchao\\.nuget\\packages\\polly\\7.2.3\\polly.7.2.3.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

@@ -7,6 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+//（加载注册服务需要的配置文件）
+builder.Services.AddServiceConfig(builder.Configuration);
 var fallbackResponse = new HttpResponseMessage()
 {
     Content = new StringContent("服务器繁忙，请稍后再试"),
@@ -36,7 +38,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseConsulRegistry();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

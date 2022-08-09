@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Consul/1.6.10.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Consul.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {}
+        }
+      },
       "FluentValidation/10.3.6": {
         "type": "package",
         "compile": {
@@ -145,6 +157,41 @@
           "lib/net6.0/Ocelot.dll": {}
         }
       },
+      "Ocelot.Provider.Consul/18.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Consul": "1.6.10.4",
+          "Ocelot": "18.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Ocelot.Provider.Consul.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Ocelot.Provider.Consul.dll": {}
+        }
+      },
+      "Ocelot.Provider.Polly/18.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Ocelot": "18.0.0",
+          "Polly": "7.2.3"
+        },
+        "compile": {
+          "lib/net6.0/Ocelot.Provider.Polly.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Ocelot.Provider.Polly.dll": {}
+        }
+      },
+      "Polly/7.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Polly.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -208,6 +255,19 @@
     }
   },
   "libraries": {
+    "Consul/1.6.10.4": {
+      "sha512": "5L3O7XirEx3bJ03OjMVdi/hdRLpkH/gRilgMZzk55Is5ttJ4GamwW+aONfFVneTKRKBpcCw/gIH5qoz4zomi1g==",
+      "type": "package",
+      "path": "consul/1.6.10.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "consul.1.6.10.4.nupkg.sha512",
+        "consul.nuspec",
+        "lib/net461/Consul.dll",
+        "lib/netstandard2.0/Consul.dll"
+      ]
+    },
     "FluentValidation/10.3.6": {
       "sha512": "iMd370ZDx6ydm8t7bIFdRbSKX0e42lpvCtifUSbTSXOk5iKjmgl7HU0PXBhIWQAyIRi3gCwfMI9luj8H6K+byw==",
       "type": "package",
@@ -494,6 +554,54 @@
         "ocelot.nuspec"
       ]
     },
+    "Ocelot.Provider.Consul/18.0.0": {
+      "sha512": "52TZfrblsnSuy6kWhoiPmZw+oBl0OG7DWdg2AmsMnKmDBu+vtb7KmLQZI0gFH1nyjx5uHhYK2yXfUQFBDBf2LA==",
+      "type": "package",
+      "path": "ocelot.provider.consul/18.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Ocelot.Provider.Consul.dll",
+        "ocelot.provider.consul.18.0.0.nupkg.sha512",
+        "ocelot.provider.consul.nuspec"
+      ]
+    },
+    "Ocelot.Provider.Polly/18.0.0": {
+      "sha512": "CyBDOT3sT27G+oyEAa3EfnLHjySrQb9LovtLzYUyJPTa7BWDDd5C1V0oCqe2jdR7HHlwi+H1y+FuS8EyWWpD2g==",
+      "type": "package",
+      "path": "ocelot.provider.polly/18.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Ocelot.Provider.Polly.dll",
+        "ocelot.provider.polly.18.0.0.nupkg.sha512",
+        "ocelot.provider.polly.nuspec"
+      ]
+    },
+    "Polly/7.2.3": {
+      "sha512": "DeCY0OFbNdNxsjntr1gTXHJ5pKUwYzp04Er2LLeN3g6pWhffsGuKVfMBLe1lw7x76HrPkLxKEFxBlpRxS2nDEQ==",
+      "type": "package",
+      "path": "polly/7.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Polly.png",
+        "lib/net461/Polly.dll",
+        "lib/net461/Polly.pdb",
+        "lib/net461/Polly.xml",
+        "lib/net472/Polly.dll",
+        "lib/net472/Polly.pdb",
+        "lib/net472/Polly.xml",
+        "lib/netstandard1.1/Polly.dll",
+        "lib/netstandard1.1/Polly.pdb",
+        "lib/netstandard1.1/Polly.xml",
+        "lib/netstandard2.0/Polly.dll",
+        "lib/netstandard2.0/Polly.pdb",
+        "lib/netstandard2.0/Polly.xml",
+        "polly.7.2.3.nupkg.sha512",
+        "polly.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.2.3": {
       "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
       "type": "package",
@@ -604,6 +712,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Ocelot.Provider.Polly >= 18.0.0",
+      "Ocelot.Provider.consul >= 18.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "ocelot >= 18.0.0"
     ]
@@ -651,6 +761,14 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Ocelot.Provider.Polly": {
+            "target": "Package",
+            "version": "[18.0.0, )"
+          },
+          "Ocelot.Provider.consul": {
+            "target": "Package",
+            "version": "[18.0.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"

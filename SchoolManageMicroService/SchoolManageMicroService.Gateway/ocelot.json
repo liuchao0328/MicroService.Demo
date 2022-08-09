@@ -4,18 +4,35 @@
     {
       "UpstreamPathTemplate": "/AggregateService/{url}", //上游服务模板
       "UpstreamHttpMethod": [ "Get" ], //上游请求格式
-      "DownstreamPathTemplate": "/{url}", //下游请求模板（控制器）
+      "DownstreamPathTemplate": "/{url-}", //下游请求模板（控制器）
       "DownstreamScheme": "https", //请求协议  HTTP HTTPS
-      "DownstreamHostAndPorts": [ //下游请求的地址（ip+端口号），可以配置多个 （集群，高可用）
-        {
-          "Host": "localhost",
-          "Port": 7012
-        },
-        {
-          "Host": "localhost", 
-          "Port": 7013
-        }
-      ]
+      //"DownstreamHostAndPorts": [ //下游请求的地址（ip+端口号），可以配置多个 （集群，高可用）
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 7012
+      //  },
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 7013
+      //  }
+      //],
+      "ServiceName": "AggregatesService",  //Consul里面的服务名称
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection" //负载均衡  （最少连接数）
+      },
+      "QoSOptions": { //polly配置
+        "ExceptionsAllowedBeforeBreaking": 3, //断路器开启的异常次数
+        "DurationOfBreak": 500, //断路器开启的时间
+        "TimeoutValue": 5000 //超时时间
+      },
+      "RateLimitOptions": {   //限流配置
+        "ClientWhitelist": [], //不限流的客户端
+        "EnableRateLimiting": true,   //是否开启限流
+        "Period": "1s",//限流时间 在多少时间内允许多少请求进来  s m h d
+        "PeriodTimespan": 1,  //什么时候可以重试
+        "Limit": 1   ,     //一次
+       
+      }
     },
     {
       "UpstreamPathTemplate": "/ClassesService", 
