@@ -158,6 +158,10 @@
             "Microsoft.IdentityModel.Clients.ActiveDirectory": {
               "target": "Package",
               "version": "[5.2.9, )"
+            },
+            "Winton.Extensions.Configuration.Consul": {
+              "target": "Package",
+              "version": "[3.2.0, )"
             }
           },
           "imports": [

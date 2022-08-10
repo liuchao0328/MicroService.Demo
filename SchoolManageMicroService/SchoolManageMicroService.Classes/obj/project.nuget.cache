@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "J6hK72R4z+zhrOQRbcIfeUH8ZmBX97ZJLZHmUais408n4WcNc+NfMy2SV5fWX4qpBM9IyGeDqAeVZy64YH9O5w==",
+  "dgSpecHash": "1iibP8jYY+wkXp4N6UDEqIt1C12Zlv6PoUQY0PvB8wr5oNuaeu4CaiFxVI1xMC0NynLhSfXtrF3pw6/lawsyQw==",
   "success": true,
   "projectFilePath": "E:\\studyspace\\Demo\\MicroService\\SchoolManageMicroService\\SchoolManageMicroService.Classes\\SchoolManageMicroService.Classes.csproj",
   "expectedPackageFiles": [
@@ -42,19 +42,19 @@
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
-    "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.configuration\\2.2.0\\microsoft.extensions.configuration.2.2.0.nupkg.sha512",
+    "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.configuration\\3.0.0\\microsoft.extensions.configuration.3.0.0.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.configuration.commandline\\2.2.0\\microsoft.extensions.configuration.commandline.2.2.0.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\2.2.0\\microsoft.extensions.configuration.environmentvariables.2.2.0.nupkg.sha512",
-    "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\2.2.0\\microsoft.extensions.configuration.fileextensions.2.2.0.nupkg.sha512",
-    "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.configuration.json\\2.2.0\\microsoft.extensions.configuration.json.2.2.0.nupkg.sha512",
+    "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.0.0\\microsoft.extensions.configuration.fileextensions.3.0.0.nupkg.sha512",
+    "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.0.0\\microsoft.extensions.configuration.json.3.0.0.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.configuration.usersecrets\\2.2.0\\microsoft.extensions.configuration.usersecrets.2.2.0.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\2.2.0\\microsoft.extensions.fileproviders.physical.2.2.0.nupkg.sha512",
-    "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\2.2.0\\microsoft.extensions.filesystemglobbing.2.2.0.nupkg.sha512",
+    "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.0.0\\microsoft.extensions.fileproviders.physical.3.0.0.nupkg.sha512",
+    "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.0.0\\microsoft.extensions.filesystemglobbing.3.0.0.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\6.0.0\\microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\microsoft.extensions.http.6.0.0.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
@@ -172,7 +172,8 @@
     "C:\\Users\\liuchao\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\liuchao\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\liuchao\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\liuchao\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\liuchao\\.nuget\\packages\\winton.extensions.configuration.consul\\3.2.0\\winton.extensions.configuration.consul.3.2.0.nupkg.sha512"
   ],
   "logs": []
 }

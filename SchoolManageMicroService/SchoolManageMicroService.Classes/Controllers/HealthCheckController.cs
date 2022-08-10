@@ -10,7 +10,7 @@ namespace SchoolManageMicroService.Classes.Controllers
         [HttpGet]
         public ActionResult Get()
         {
-            return Ok("心跳检查");
+            return Ok("班级服务心跳检查");
         }
     }
 }

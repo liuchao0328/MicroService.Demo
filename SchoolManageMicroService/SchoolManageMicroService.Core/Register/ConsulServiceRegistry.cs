@@ -58,12 +58,12 @@ namespace SchoolManageMicroService.Core.Register
                 {
                     // 3.1、consul健康检查超时间
                     Timeout = TimeSpan.FromSeconds(10),
-                    // 3.2、服务停止5秒后注销服务
-                    DeregisterCriticalServiceAfter = TimeSpan.FromSeconds(5),
+                    // 3.2、服务停止3秒后注销服务
+                    DeregisterCriticalServiceAfter = TimeSpan.FromSeconds(3),
                     // 3.3、consul健康检查地址
                     HTTP = config.HealthCheckAddress,
                     // 3.4 consul健康检查间隔时间
-                    Interval = TimeSpan.FromSeconds(10),
+                    Interval = TimeSpan.FromSeconds(5),
                 }
             };
             // 4、注册服务
