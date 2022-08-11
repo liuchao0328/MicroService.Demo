@@ -1,9 +1,17 @@
 using Polly;
 using SchoolManageMicroService.Aggregates.Services;
+using SchoolManageMicroService.Core.ConfigCenter;
 using SchoolManageMicroService.Core.HttpClientConsul;
+using SchoolManageMicroService.Core.Mock;
 using SchoolManageMicroService.Core.Register.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
+//加载配置中心文件
+builder.Host.ConfigureAppConfiguration((ctx, config) =>
+{
+    IConfigCenter configCenter = new ConsulConfigCenter();
+    configCenter.ConfigurationConfigCenter(ctx, config);
+});
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -30,6 +38,7 @@ builder.Services.AddHttpClient("ClassesService") // 请求连接复用
 builder.Services.AddDisConvery();
 builder.Services.AddHttpClientConsul<ConsulHttpClient>();
 builder.Services.AddSingleton<IClassesClientService, ClassesHttpClientService>();
+builder.Services.AddSingleton<IMock, ExceptionMock>();//注册服务降级服务
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

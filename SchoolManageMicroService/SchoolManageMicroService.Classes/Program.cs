@@ -2,7 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using SchoolManageMicroService.Classes.Context;
 using SchoolManageMicroService.Classes.Repositories;
 using SchoolManageMicroService.Classes.Services;
+using SchoolManageMicroService.Core.ConfigCenter;
 using SchoolManageMicroService.Core.Register.Extensions;
+using System.Reflection;
 using Winton.Extensions.Configuration.Consul;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,16 +12,21 @@ var builder = WebApplication.CreateBuilder(args);
 //加载配置中心配置文件
 builder.Host.ConfigureAppConfiguration((cxt, config) =>
 {
-    var figuration = config.AddJsonFile("consulcenter.json").Build();
-    var address = figuration["ConfigCenterAddress"];
-    config.AddConsul("appsettings.json", configuration =>
-    {
-        configuration.ConsulConfigurationOptions = opt =>
-        {
-            opt.Address = new Uri(address);
-        };
-        configuration.ReloadOnChange = true;//热加载配置文件
-    });
+    IConfigCenter configCenter = new ConsulConfigCenter();
+    configCenter.ConfigurationConfigCenter(cxt, config);
+    //var figuration = config.AddJsonFile("consulcenter.json").Build();
+    //var address = figuration["ConfigCenterAddress"];
+    //IHostEnvironment hostEnvironment = cxt.HostingEnvironment;
+    //var environmentName= hostEnvironment.EnvironmentName;
+    //var assmbly = Assembly.GetExecutingAssembly().GetName().Name;
+    //config.AddConsul($"{assmbly}/appsettings.{environmentName}.json", configuration =>
+    //{
+    //    configuration.ConsulConfigurationOptions = opt =>
+    //    {
+    //        opt.Address = new Uri(address);
+    //    };
+    //    configuration.ReloadOnChange = true;//热加载配置文件
+    //});
 });
 
 

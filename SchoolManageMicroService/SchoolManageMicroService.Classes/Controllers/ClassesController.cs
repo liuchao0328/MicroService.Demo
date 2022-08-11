@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SchoolManageMicroService.Classes.Models;
 using SchoolManageMicroService.Classes.Services;
 
 namespace SchoolManageMicroService.Classes.Controllers
@@ -9,10 +10,11 @@ namespace SchoolManageMicroService.Classes.Controllers
     public class ClassesController : ControllerBase
     {
         private readonly IClassService classService;
-
-        public ClassesController(IClassService classService)
+        private readonly IConfiguration configuration;
+        public ClassesController(IClassService classService, IConfiguration configuration)
         {
             this.classService = classService;
+            this.configuration = configuration;
         }
         [HttpGet]
         public async Task<ActionResult> Get()
@@ -20,7 +22,17 @@ namespace SchoolManageMicroService.Classes.Controllers
             try
             {
                 Console.WriteLine("获取班级信息");
-                var classes =await classService.GetAllAsync();
+                bool flag = Convert.ToBoolean(configuration["flag"]);
+                List<Class> classes = new List<Class>();
+                ///服务降级
+                if (!flag)
+                {
+                    classes = await classService.GetAllAsync();
+                }
+                else
+                {
+                    classes = new List<Class>();
+                }
                 return Ok(classes);
             }
             catch (Exception ex)

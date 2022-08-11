@@ -32,5 +32,6 @@ namespace SchoolManageMicroService.Core.Register
         // 服务健康检查地址
         public string HealthCheckAddress { get; set; }
         public string LocalAddress { get; set; }
+        public string Test { get; set; }
     }
 }

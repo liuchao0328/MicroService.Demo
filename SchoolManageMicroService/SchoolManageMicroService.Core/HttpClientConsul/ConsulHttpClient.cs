@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using SchoolManageMicroService.Core.Cluster;
+using SchoolManageMicroService.Core.Mock;
 using SchoolManageMicroService.Core.Register;
 using System.Net;
 
@@ -11,14 +12,18 @@ namespace SchoolManageMicroService.Core.HttpClientConsul
         private readonly ILoadBalance loadBalance;
         private readonly IServiceDiscovery serviceDiscovery;
         private readonly IHttpClientFactory httpClientFactory;
-        public ConsulHttpClient(ILoadBalance loadBalance, IServiceDiscovery serviceDiscovery, IHttpClientFactory httpClientFactory)
+        private readonly IMock mock;
+        public ConsulHttpClient(ILoadBalance loadBalance, IServiceDiscovery serviceDiscovery, IHttpClientFactory httpClientFactory, IMock mock)
         {
             this.loadBalance = loadBalance;
             this.serviceDiscovery = serviceDiscovery;
             this.httpClientFactory = httpClientFactory;
+            this.mock = mock;
         }
         public async Task<T> GetAsync<T>(string Serviceshcme, string ServiceName, string serviceLink)
         {
+            //进行服务降级
+            mock.DoMock(ServiceName);
             // 故障转移
             string json = "";
             int RestyConut = 0;
