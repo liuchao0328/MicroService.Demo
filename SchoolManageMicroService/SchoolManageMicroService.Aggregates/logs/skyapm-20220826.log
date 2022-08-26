@@ -1,0 +1,123 @@
+2022-08-26 22:00:59.646 +08:00 [My_Service] [Information] SkyApm.InstrumentStartup : Initializing ...
+2022-08-26 22:00:59.682 +08:00 [My_Service] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2022-08-26 22:00:59.684 +08:00 [My_Service] [Information] SkyApm.Service.LogReportService : Loaded instrument service [SkyApm.Service.LogReportService].
+2022-08-26 22:00:59.684 +08:00 [My_Service] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2022-08-26 22:00:59.685 +08:00 [My_Service] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2022-08-26 22:00:59.685 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2022-08-26 22:00:59.685 +08:00 [My_Service] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2022-08-26 22:00:59.685 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.ConnectService].
+2022-08-26 22:00:59.735 +08:00 [My_Service] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2022-08-26 22:00:59.737 +08:00 [My_Service] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2022-08-26 22:00:59.737 +08:00 [My_Service] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2022-08-26 22:01:00.182 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[localhost:11800].
+2022-08-26 22:01:00.383 +08:00 [My_Service] [Error] SkyApm.Transport.Grpc.V8.ServiceRegister : Report service instance properties fail.
+Grpc.Core.RpcException: Status(StatusCode="Unimplemented", Detail="Method not found: skywalking.v3.ManagementService/reportInstanceProperties", DebugException="Grpc.Core.Internal.CoreErrorDetailException: {"created":"@1661522460.321000000","description":"Error received from peer ipv6:[::1]:11800","file":"..\..\..\src\core\lib\surface\call.cc","file_line":906,"grpc_message":"Method not found: skywalking.v3.ManagementService/reportInstanceProperties","grpc_status":12}")
+   at SkyApm.Transport.Grpc.V8.ServiceRegister.<>c__DisplayClass9_0.<<ReportInstancePropertiesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2022-08-26 22:01:00.384 +08:00 [My_Service] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode="Unimplemented", Detail="Method not found: skywalking.v3.ManagementService/reportInstanceProperties", DebugException="Grpc.Core.Internal.CoreErrorDetailException: {"created":"@1661522460.321000000","description":"Error received from peer ipv6:[::1]:11800","file":"..\..\..\src\core\lib\surface\call.cc","file_line":906,"grpc_message":"Method not found: skywalking.v3.ManagementService/reportInstanceProperties","grpc_status":12}")
+2022-08-26 22:09:02.099 +08:00 [My_Service] [Information] SkyApm.InstrumentStartup : Initializing ...
+2022-08-26 22:09:02.132 +08:00 [My_Service] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2022-08-26 22:09:02.135 +08:00 [My_Service] [Information] SkyApm.Service.LogReportService : Loaded instrument service [SkyApm.Service.LogReportService].
+2022-08-26 22:09:02.135 +08:00 [My_Service] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2022-08-26 22:09:02.135 +08:00 [My_Service] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2022-08-26 22:09:02.135 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2022-08-26 22:09:02.135 +08:00 [My_Service] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2022-08-26 22:09:02.136 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.ConnectService].
+2022-08-26 22:09:02.191 +08:00 [My_Service] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2022-08-26 22:09:02.192 +08:00 [My_Service] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2022-08-26 22:09:02.192 +08:00 [My_Service] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2022-08-26 22:09:02.307 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[localhost:11800].
+2022-08-26 22:09:02.770 +08:00 [My_Service] [Error] SkyApm.Transport.Grpc.V8.ServiceRegister : Report service instance properties fail.
+Grpc.Core.RpcException: Status(StatusCode="Unimplemented", Detail="Method not found: skywalking.v3.ManagementService/reportInstanceProperties", DebugException="Grpc.Core.Internal.CoreErrorDetailException: {"created":"@1661522942.733000000","description":"Error received from peer ipv6:[::1]:11800","file":"..\..\..\src\core\lib\surface\call.cc","file_line":906,"grpc_message":"Method not found: skywalking.v3.ManagementService/reportInstanceProperties","grpc_status":12}")
+   at SkyApm.Transport.Grpc.V8.ServiceRegister.<>c__DisplayClass9_0.<<ReportInstancePropertiesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2022-08-26 22:09:02.771 +08:00 [My_Service] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode="Unimplemented", Detail="Method not found: skywalking.v3.ManagementService/reportInstanceProperties", DebugException="Grpc.Core.Internal.CoreErrorDetailException: {"created":"@1661522942.733000000","description":"Error received from peer ipv6:[::1]:11800","file":"..\..\..\src\core\lib\surface\call.cc","file_line":906,"grpc_message":"Method not found: skywalking.v3.ManagementService/reportInstanceProperties","grpc_status":12}")
+2022-08-26 22:09:17.169 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2022-08-26 22:09:17.188 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[localhost:11800].
+2022-08-26 22:09:32.144 +08:00 [My_Service] [Error] SkyApm.Transport.Grpc.V8.ServiceRegister : Report service instance properties fail.
+Grpc.Core.RpcException: Status(StatusCode="Unimplemented", Detail="Method not found: skywalking.v3.ManagementService/reportInstanceProperties", DebugException="Grpc.Core.Internal.CoreErrorDetailException: {"created":"@1661522972.136000000","description":"Error received from peer ipv6:[::1]:11800","file":"..\..\..\src\core\lib\surface\call.cc","file_line":906,"grpc_message":"Method not found: skywalking.v3.ManagementService/reportInstanceProperties","grpc_status":12}")
+   at SkyApm.Transport.Grpc.V8.ServiceRegister.<>c__DisplayClass9_0.<<ReportInstancePropertiesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2022-08-26 22:09:32.146 +08:00 [My_Service] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode="Unimplemented", Detail="Method not found: skywalking.v3.ManagementService/reportInstanceProperties", DebugException="Grpc.Core.Internal.CoreErrorDetailException: {"created":"@1661522972.136000000","description":"Error received from peer ipv6:[::1]:11800","file":"..\..\..\src\core\lib\surface\call.cc","file_line":906,"grpc_message":"Method not found: skywalking.v3.ManagementService/reportInstanceProperties","grpc_status":12}")
+2022-08-26 22:09:47.150 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2022-08-26 22:09:47.168 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[localhost:11800].
+2022-08-26 22:10:02.155 +08:00 [My_Service] [Error] SkyApm.Transport.Grpc.V8.ServiceRegister : Report service instance properties fail.
+Grpc.Core.RpcException: Status(StatusCode="Unimplemented", Detail="Method not found: skywalking.v3.ManagementService/reportInstanceProperties", DebugException="Grpc.Core.Internal.CoreErrorDetailException: {"created":"@1661523002.154000000","description":"Error received from peer ipv6:[::1]:11800","file":"..\..\..\src\core\lib\surface\call.cc","file_line":906,"grpc_message":"Method not found: skywalking.v3.ManagementService/reportInstanceProperties","grpc_status":12}")
+   at SkyApm.Transport.Grpc.V8.ServiceRegister.<>c__DisplayClass9_0.<<ReportInstancePropertiesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2022-08-26 22:10:02.155 +08:00 [My_Service] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode="Unimplemented", Detail="Method not found: skywalking.v3.ManagementService/reportInstanceProperties", DebugException="Grpc.Core.Internal.CoreErrorDetailException: {"created":"@1661523002.154000000","description":"Error received from peer ipv6:[::1]:11800","file":"..\..\..\src\core\lib\surface\call.cc","file_line":906,"grpc_message":"Method not found: skywalking.v3.ManagementService/reportInstanceProperties","grpc_status":12}")
+2022-08-26 22:10:17.161 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2022-08-26 22:10:17.177 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[localhost:11800].
+2022-08-26 22:10:32.156 +08:00 [My_Service] [Error] SkyApm.Transport.Grpc.V8.ServiceRegister : Report service instance properties fail.
+Grpc.Core.RpcException: Status(StatusCode="Unimplemented", Detail="Method not found: skywalking.v3.ManagementService/reportInstanceProperties", DebugException="Grpc.Core.Internal.CoreErrorDetailException: {"created":"@1661523032.155000000","description":"Error received from peer ipv6:[::1]:11800","file":"..\..\..\src\core\lib\surface\call.cc","file_line":906,"grpc_message":"Method not found: skywalking.v3.ManagementService/reportInstanceProperties","grpc_status":12}")
+   at SkyApm.Transport.Grpc.V8.ServiceRegister.<>c__DisplayClass9_0.<<ReportInstancePropertiesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2022-08-26 22:10:32.156 +08:00 [My_Service] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode="Unimplemented", Detail="Method not found: skywalking.v3.ManagementService/reportInstanceProperties", DebugException="Grpc.Core.Internal.CoreErrorDetailException: {"created":"@1661523032.155000000","description":"Error received from peer ipv6:[::1]:11800","file":"..\..\..\src\core\lib\surface\call.cc","file_line":906,"grpc_message":"Method not found: skywalking.v3.ManagementService/reportInstanceProperties","grpc_status":12}")
+2022-08-26 22:10:47.147 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2022-08-26 22:10:47.164 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[localhost:11800].
+2022-08-26 22:11:02.150 +08:00 [My_Service] [Error] SkyApm.Transport.Grpc.V8.ServiceRegister : Report service instance properties fail.
+Grpc.Core.RpcException: Status(StatusCode="Unimplemented", Detail="Method not found: skywalking.v3.ManagementService/reportInstanceProperties", DebugException="Grpc.Core.Internal.CoreErrorDetailException: {"created":"@1661523062.149000000","description":"Error received from peer ipv6:[::1]:11800","file":"..\..\..\src\core\lib\surface\call.cc","file_line":906,"grpc_message":"Method not found: skywalking.v3.ManagementService/reportInstanceProperties","grpc_status":12}")
+   at SkyApm.Transport.Grpc.V8.ServiceRegister.<>c__DisplayClass9_0.<<ReportInstancePropertiesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2022-08-26 22:11:02.150 +08:00 [My_Service] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode="Unimplemented", Detail="Method not found: skywalking.v3.ManagementService/reportInstanceProperties", DebugException="Grpc.Core.Internal.CoreErrorDetailException: {"created":"@1661523062.149000000","description":"Error received from peer ipv6:[::1]:11800","file":"..\..\..\src\core\lib\surface\call.cc","file_line":906,"grpc_message":"Method not found: skywalking.v3.ManagementService/reportInstanceProperties","grpc_status":12}")
+2022-08-26 22:11:17.150 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2022-08-26 22:11:17.166 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[localhost:11800].
+2022-08-26 22:11:32.153 +08:00 [My_Service] [Error] SkyApm.Transport.Grpc.V8.ServiceRegister : Report service instance properties fail.
+Grpc.Core.RpcException: Status(StatusCode="Unimplemented", Detail="Method not found: skywalking.v3.ManagementService/reportInstanceProperties", DebugException="Grpc.Core.Internal.CoreErrorDetailException: {"created":"@1661523092.152000000","description":"Error received from peer ipv6:[::1]:11800","file":"..\..\..\src\core\lib\surface\call.cc","file_line":906,"grpc_message":"Method not found: skywalking.v3.ManagementService/reportInstanceProperties","grpc_status":12}")
+   at SkyApm.Transport.Grpc.V8.ServiceRegister.<>c__DisplayClass9_0.<<ReportInstancePropertiesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2022-08-26 22:11:32.153 +08:00 [My_Service] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode="Unimplemented", Detail="Method not found: skywalking.v3.ManagementService/reportInstanceProperties", DebugException="Grpc.Core.Internal.CoreErrorDetailException: {"created":"@1661523092.152000000","description":"Error received from peer ipv6:[::1]:11800","file":"..\..\..\src\core\lib\surface\call.cc","file_line":906,"grpc_message":"Method not found: skywalking.v3.ManagementService/reportInstanceProperties","grpc_status":12}")
+2022-08-26 22:11:47.154 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[localhost:11800].
+2022-08-26 22:11:47.169 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[localhost:11800].
+2022-08-26 22:13:33.448 +08:00 [My_Service] [Information] SkyApm.InstrumentStartup : Initializing ...
+2022-08-26 22:13:33.476 +08:00 [My_Service] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2022-08-26 22:13:33.479 +08:00 [My_Service] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2022-08-26 22:13:33.479 +08:00 [My_Service] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2022-08-26 22:13:33.479 +08:00 [My_Service] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2022-08-26 22:13:33.479 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2022-08-26 22:13:33.479 +08:00 [My_Service] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2022-08-26 22:13:33.479 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2022-08-26 22:13:33.533 +08:00 [My_Service] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2022-08-26 22:13:33.533 +08:00 [My_Service] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2022-08-26 22:13:33.534 +08:00 [My_Service] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2022-08-26 22:13:33.843 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[localhost:11800].
+2022-08-26 22:13:34.660 +08:00 [My_Service] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2022-08-26 22:13:35.225 +08:00 [My_Service] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=2].
+2022-08-26 22:13:39.557 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 9 trace segment. cost: 00:00:00.0723470s
+2022-08-26 22:13:42.579 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 24 trace segment. cost: 00:00:00.0922403s
+2022-08-26 22:13:45.496 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 3 trace segment. cost: 00:00:00.0041907s
+2022-08-26 22:14:03.499 +08:00 [My_Service] [Information] SkyApm.Service.PingService : Ping server @2022/8/26 14:14:03 +00:00
+2022-08-26 22:14:03.503 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32763 32767 1000 1000
+2022-08-26 22:14:33.499 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 14M ThreadPool 32763 32767 1000 1000
+2022-08-26 22:15:03.504 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32762 32767 1000 1000
+2022-08-26 22:15:03.506 +08:00 [My_Service] [Information] SkyApm.Service.PingService : Ping server @2022/8/26 14:15:03 +00:00
+2022-08-26 22:15:33.504 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32763 32767 1000 1000
+2022-08-26 22:16:11.005 +08:00 [My_Service] [Information] SkyApm.InstrumentStartup : Initializing ...
+2022-08-26 22:16:11.039 +08:00 [My_Service] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2022-08-26 22:16:11.041 +08:00 [My_Service] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2022-08-26 22:16:11.041 +08:00 [My_Service] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2022-08-26 22:16:11.041 +08:00 [My_Service] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2022-08-26 22:16:11.041 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2022-08-26 22:16:11.042 +08:00 [My_Service] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2022-08-26 22:16:11.042 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2022-08-26 22:16:11.088 +08:00 [My_Service] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2022-08-26 22:16:11.089 +08:00 [My_Service] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2022-08-26 22:16:11.089 +08:00 [My_Service] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2022-08-26 22:16:11.158 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[localhost:11800].
+2022-08-26 22:16:11.624 +08:00 [My_Service] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2022-08-26 22:16:12.189 +08:00 [My_Service] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=8].
+2022-08-26 22:16:14.082 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 4 trace segment. cost: 00:00:00.0237806s
+2022-08-26 22:16:17.058 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 9 trace segment. cost: 00:00:00.0081916s
+2022-08-26 22:16:41.078 +08:00 [My_Service] [Information] SkyApm.Service.PingService : Ping server @2022/8/26 14:16:41 +00:00
+2022-08-26 22:16:41.080 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32763 32767 1000 1000
+2022-08-26 22:17:11.059 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32763 32767 1000 1000
+2022-08-26 22:17:41.059 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32763 32767 1000 1000
+2022-08-26 22:17:41.061 +08:00 [My_Service] [Information] SkyApm.Service.PingService : Ping server @2022/8/26 14:17:41 +00:00
+2022-08-26 22:18:11.056 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32763 32767 1000 1000

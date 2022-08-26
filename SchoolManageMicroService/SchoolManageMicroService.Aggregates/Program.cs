@@ -1,3 +1,4 @@
+using NLog.Web;
 using Polly;
 using SchoolManageMicroService.Aggregates.Services;
 using SchoolManageMicroService.Core.ConfigCenter;
@@ -39,8 +40,26 @@ builder.Services.AddDisConvery();
 builder.Services.AddHttpClientConsul<ConsulHttpClient>();
 builder.Services.AddSingleton<IClassesClientService, ClassesHttpClientService>();
 builder.Services.AddSingleton<IMock, ExceptionMock>();//注册服务降级服务
-var app = builder.Build();
+builder.Services.AddCap(opt =>
+{
+    opt.UseRabbitMQ(options =>
+    {
+        options.HostName = "182.92.120.29";//
+        options.UserName = "guest";
+        options.Password = "guest";
+        options.Port = 5672;
+        options.VirtualHost = "/";
+    });
+    opt.UseInMemoryStorage();//使用缓存作本地消息表
+});
+builder.Host.ConfigureAppConfiguration((hostingContext, config) =>
+{
 
+}).ConfigureLogging(logging =>
+{
+    logging.ClearProviders();
+}).UseNLog();
+var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

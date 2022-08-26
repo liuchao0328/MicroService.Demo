@@ -39,7 +39,6 @@ namespace SchoolManageMicroService.Core.Register.Extensions
             serviceNode.Port = uri.Port;
             serviceNode.HealthCheckAddress = $"{uri.Scheme}://{uri.Host}:{uri.Port}{serviceNode.HealthCheckAddress}";
             serviceRegistry.Registry(serviceNode);
-
             // 5、服务器关闭时注销服务
             lifetime.ApplicationStopping.Register(() =>
             {

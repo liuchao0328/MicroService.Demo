@@ -10,3 +10,15 @@ E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Commons\obj
 E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Commons\obj\Debug\net6.0\refint\SchoolManageMicroService.Commons.dll
 E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Commons\obj\Debug\net6.0\SchoolManageMicroService.Commons.pdb
 E:\studyspace\Demo\SchoolManageMicroService\SchoolManageMicroService.Commons\obj\Debug\net6.0\ref\SchoolManageMicroService.Commons.dll
+E:\studyspace\Demo\MicroService\SchoolManageMicroService\SchoolManageMicroService.Commons\bin\Debug\net6.0\SchoolManageMicroService.Commons.deps.json
+E:\studyspace\Demo\MicroService\SchoolManageMicroService\SchoolManageMicroService.Commons\bin\Debug\net6.0\SchoolManageMicroService.Commons.dll
+E:\studyspace\Demo\MicroService\SchoolManageMicroService\SchoolManageMicroService.Commons\bin\Debug\net6.0\SchoolManageMicroService.Commons.pdb
+E:\studyspace\Demo\MicroService\SchoolManageMicroService\SchoolManageMicroService.Commons\obj\Debug\net6.0\SchoolManageMicroService.Commons.csproj.AssemblyReference.cache
+E:\studyspace\Demo\MicroService\SchoolManageMicroService\SchoolManageMicroService.Commons\obj\Debug\net6.0\SchoolManageMicroService.Commons.GeneratedMSBuildEditorConfig.editorconfig
+E:\studyspace\Demo\MicroService\SchoolManageMicroService\SchoolManageMicroService.Commons\obj\Debug\net6.0\SchoolManageMicroService.Commons.AssemblyInfoInputs.cache
+E:\studyspace\Demo\MicroService\SchoolManageMicroService\SchoolManageMicroService.Commons\obj\Debug\net6.0\SchoolManageMicroService.Commons.AssemblyInfo.cs
+E:\studyspace\Demo\MicroService\SchoolManageMicroService\SchoolManageMicroService.Commons\obj\Debug\net6.0\SchoolManageMicroService.Commons.csproj.CoreCompileInputs.cache
+E:\studyspace\Demo\MicroService\SchoolManageMicroService\SchoolManageMicroService.Commons\obj\Debug\net6.0\SchoolManageMicroService.Commons.dll
+E:\studyspace\Demo\MicroService\SchoolManageMicroService\SchoolManageMicroService.Commons\obj\Debug\net6.0\refint\SchoolManageMicroService.Commons.dll
+E:\studyspace\Demo\MicroService\SchoolManageMicroService\SchoolManageMicroService.Commons\obj\Debug\net6.0\SchoolManageMicroService.Commons.pdb
+E:\studyspace\Demo\MicroService\SchoolManageMicroService\SchoolManageMicroService.Commons\obj\Debug\net6.0\ref\SchoolManageMicroService.Commons.dll

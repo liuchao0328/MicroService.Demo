@@ -1,0 +1,23 @@
+2022-08-26 22:16:10.624 +08:00 [My_Service] [Information] SkyApm.InstrumentStartup : Initializing ...
+2022-08-26 22:16:10.663 +08:00 [My_Service] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2022-08-26 22:16:10.665 +08:00 [My_Service] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2022-08-26 22:16:10.665 +08:00 [My_Service] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2022-08-26 22:16:10.665 +08:00 [My_Service] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2022-08-26 22:16:10.666 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2022-08-26 22:16:10.666 +08:00 [My_Service] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2022-08-26 22:16:10.666 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2022-08-26 22:16:10.716 +08:00 [My_Service] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2022-08-26 22:16:10.717 +08:00 [My_Service] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2022-08-26 22:16:10.717 +08:00 [My_Service] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2022-08-26 22:16:10.879 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[localhost:11800].
+2022-08-26 22:16:11.246 +08:00 [My_Service] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2022-08-26 22:16:11.785 +08:00 [My_Service] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=7].
+2022-08-26 22:16:13.700 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 4 trace segment. cost: 00:00:00.0291622s
+2022-08-26 22:16:16.165 +08:00 [My_Service] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.EntityFrameworkCore].
+2022-08-26 22:16:16.690 +08:00 [My_Service] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 4 trace segment. cost: 00:00:00.0158033s
+2022-08-26 22:16:40.694 +08:00 [My_Service] [Information] SkyApm.Service.PingService : Ping server @2022/8/26 14:16:40 +00:00
+2022-08-26 22:16:40.696 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32763 32767 1000 1000
+2022-08-26 22:17:10.677 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32764 32767 1000 1000
+2022-08-26 22:17:40.684 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32762 32767 1000 1000
+2022-08-26 22:17:40.684 +08:00 [My_Service] [Information] SkyApm.Service.PingService : Ping server @2022/8/26 14:17:40 +00:00
+2022-08-26 22:18:10.683 +08:00 [My_Service] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32764 32767 1000 1000
